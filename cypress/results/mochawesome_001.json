@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-07T15:19:09.089Z",
+    "end": "2022-09-07T15:19:15.181Z",
+    "duration": 6092,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c26dc53e-d1e4-4a64-9351-4c94963588ef",
+      "title": "",
+      "fullFile": "cypress\\e2e\\asersiones.cy.js",
+      "file": "cypress\\e2e\\asersiones.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cba796a0-9e9f-427d-b5a2-ef0fb604d167",
+          "title": "Asersiones",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validando que el boton tenga atributo nombre valor wait sin usar invoke",
+              "fullTitle": "Asersiones Validando que el boton tenga atributo nombre valor wait sin usar invoke",
+              "timedOut": null,
+              "duration": 5865,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"#wait\").should(\"have.attr\", \"name\", \"wait\");",
+              "err": {},
+              "uuid": "fc8c2dd4-0282-4154-91c9-7ecf91ce1918",
+              "parentUUID": "cba796a0-9e9f-427d-b5a2-ef0fb604d167",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fc8c2dd4-0282-4154-91c9-7ecf91ce1918"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5865,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
